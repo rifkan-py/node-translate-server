@@ -1,0 +1,22 @@
+{
+  "name": "translate-server",
+  "version": "1.0.0",
+  "description": "node translate server with firebase - server for react native app",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "start:dev": "nodemon index.js"
+  },
+  "author": "Mohamed Rifkan",
+  "license": "ISC",
+  "dependencies": {
+    "@google-cloud/translate": "^7.2.1",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "firebase": "^9.22.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  }
+}
